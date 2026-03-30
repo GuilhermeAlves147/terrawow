@@ -4,7 +4,7 @@ body{
     background-color: #0f172a;
 }
 .menu{
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -14,7 +14,7 @@ body{
     height: 60px;
     font-size: 25px;
 }
-.menu a{
+.menu .animado{
     color: white;
     text-decoration: none;
     position: relative;
@@ -22,7 +22,7 @@ body{
     padding: 5px;
     z-index: 1;
 }
-.menu a::after{
+.menu .animado::after{
     content: "";
     position: absolute;
     bottom:0;
@@ -33,8 +33,14 @@ body{
     transition: height 0.3s ease;
     z-index: -1;
 }
-.menu a:hover::after{
+.menu .animado:hover::after{
     height: 100%;
     border-bottom:solid blue;
 }
+.logo{
+    position: absolute;
+    margin-right: auto;
+    left: 15px;
+}
+
 

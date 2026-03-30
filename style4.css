@@ -1,0 +1,46 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #0f172a;
+}
+.menu{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #020617;
+    gap: 50px;
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+}
+.menu .animado{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    z-index: 1;
+}
+.menu .animado::after{
+    content: "";
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 0%;
+    background-color: rgb(28, 28, 88);
+    transition: height 0.3s ease;
+    z-index: -1;
+}
+.menu .animado:hover::after{
+    height: 100%;
+    border-bottom:solid blue;
+}
+.logo{
+    position: absolute;
+    margin-right: auto;
+    left: 15px;
+}
+
+
