@@ -41,6 +41,28 @@ body{
     position: absolute;
     margin-right: auto;
     left: 15px;
+    top:5px;
 }
-
+.sobre h1{
+    color: #fbe7e7;
+    background-color:#1f283e;
+    border-radius: 12px;
+    font-size: 49px;
+}
+.sobre{
+    text-align: center;
+}
+.sobre p{
+    color: #ffffff;
+    font-size: 22px;
+    border: solid rgb(189, 187, 187);
+    border-radius: 16px;
+    background-color:#1a2130;
+}
+.sobre img{
+    width: 70%;
+    height: 315px;
+    border:double rgb(188, 184, 184);
+    border-radius: 16px;
+}
 
