@@ -73,6 +73,6 @@ body::after{
 .pog h1{
     font-size: clamp(32px, 5vw, 64px);
     white-space: nowrap;
-    font-size: 85px;
+    font-size: 100px;
 }
 
