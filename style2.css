@@ -53,7 +53,7 @@ font-family: Arial, sans-serif;
 .destaque-principal {
     margin: 20px 15%;
     height: 350px;
-    background: url("/assets/pexels-georg-bergen-2149748854-35133784.jpg") center/cover no-repeat;
+    background: url("./assets/pexels-georg-bergen-2149748854-35133784.jpg") center/cover no-repeat;
     border-radius: 12px;
     filter: brightness(1.3);
 }
